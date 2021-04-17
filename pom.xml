@@ -22,9 +22,12 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
                 <configuration>
-					<fork>true</fork>
-					<executable>C:\Program Files\Java\sapmachine-jdk-11.0.8\bin\javac.exe</executable>
-				</configuration>
+                    <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+
+                </configuration>
             </plugin>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
