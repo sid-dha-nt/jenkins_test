@@ -36,7 +36,7 @@ class FizzBuzzTest {
     @Test
     public void testZero() {
 
-        fb = null;
+        fB = null;
     }
 
     @AfterEach
